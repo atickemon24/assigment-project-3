@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruits Bruts</title>
 
     <link rel="stylesheet" href="style.css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
+
 <body>
     <!-- header starts  -->
     <header class=" mt-7 mb-7">
-         <div class="container m-auto bg-orange-500  rounded-full p-4 ">
+        <div class="container m-auto bg-orange-500  rounded-full p-4 ">
             <nav class=" flex justify-evenly items-center">
                 <ul class="flex gap-2 items-center text-white">
                     <li><a href="">home</a></li>
@@ -24,7 +28,7 @@
                 </ul>
                 <div class="logo flex items-center gap-4">
                     <img src="./images/logo.png" alt="" class="w-8">
-                    <span class="text-white font-bold text-3xl">  fruits bruts</span>
+                    <span class="text-white font-bold text-3xl"> fruits bruts</span>
                 </div>
                 <div class="">
                     <input type="text" placeholder="search here" class="px-8 py-2 rounded-full outline-none">
@@ -32,7 +36,7 @@
                 </div>
             </nav>
 
-         </div>
+        </div>
     </header>
     <!-- header end -->
     <!-- main start here  -->
@@ -41,77 +45,226 @@
         <section class=" container m-auto  mb-32">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
-                  <img src="./images/banner1.png" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle">❮</a> 
-                    <a href="#slide2" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
-                <div id="slide2" class="carousel-item relative w-full">
-                  <img src="./images/banner2.png" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle">❮</a> 
-                    <a href="#slide3" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
-                <div id="slide3" class="carousel-item relative w-full">
-                  <img src="./images/banner3.png" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide2" class="btn btn-circle">❮</a> 
-                    <a href="#slide4" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
-                <div id="slide4" class="carousel-item relative w-full">
-                  <img src="./images/banner4.png" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle">❮</a> 
-                    <a href="#slide1" class="btn btn-circle">❯</a>
-                  </div>
+                    <img src="./images/banner1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
                 </div>
-              </div>
-        </section> 
-         <!-- hero section ends -->
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="./images/banner2.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="./images/banner3.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="./images/banner4.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- hero section ends -->
         <!-- countdown section  -->
         <section class="container m-auto">
-            <div class="all-count flex justify-between items-center">
-                <div class="left-count w-3/5">
-                    <span  class="text-black text-4xl font-bold ">Deal of the day</span>
-                    <p class="text-gray-700 font-light text-sm w-3/4 mt-4">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            <div class="all-count flex justify-center items-center mr-8">
+                <div class="left-count w-6/12">
+                    <span class="text-black text-4xl font-bold ">Deal of the day</span>
+                    <p class="text-gray-700 font-light text-sm w-3/4 mt-4">Contrary to popular belief, is not simply
+                        random text. It has roots in a piece of classical Latin literature from 45 BC, making it over
+                        2000 years old.</p>
                 </div>
-                <div class="right-count w-2/5">
+                <div class="right-count w-6/12">
                     <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
                         <div class="flex flex-col">
-                          <span class="countdown font-mono text-5xl">
-                            <span style="--value:15;"></span>:
-                          </span>
-                          days
-                        </div> 
-                        <div class="flex flex-col">
-                          <span class="countdown font-mono text-5xl">
-                            <span style="--value:10;"></span>:
-                          </span>
-                          hours
-                        </div> 
-                        <div class="flex flex-col">
-                          <span class="countdown font-mono text-5xl">
-                            <span style="--value:24;"></span>:
-                          </span>
-                          min
-                        </div> 
-                        <div class="flex flex-col">
-                          <span class="countdown font-mono text-5xl">
-                            <span style="--value:38;"></span>:
-                          </span>
-                          sec
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:15;"></span>:
+                            </span>
+                            days
                         </div>
-                      </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:10;"></span>:
+                            </span>
+                            hours
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:24;"></span>:
+                            </span>
+                            min
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:38;"></span>:
+                            </span>
+                            sec
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- countdown section end -->
-       
+        <section class="container m-auto mx-8 my-8">
+            <div class="all-card flex gap-10 justify-center items-center">
+                <div class="first  border border-black-300 w-64 text-center shadow-lg shadow-black-500/50">
+                    <div class="text-center w-full">
+                        <img src="./images/fruit6.png" alt="" class=" mx-0 ml-16 mb-6">
+                    </div>
+                    <span class="text-center font-bold text-xl border-b-1 border-gray-400  mb-5">12.90$ - 18.85$</span>
+                    <div class="border border-black-200 w-44 ml-8 mt-5 ">
+
+                    </div>
+                    <p class="font-light text-center mb-2 mt-10">apple</p>
+                    <div class="rating ml-5 mb-2">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <p class="text-center"><a href="./images/Fruit Burst Website Landing Page Design3.png"
+                            class="link text-sm no-underline">Details</a></p>
+                </div>
+                <div class="first  border border-black-300 w-64 text-center shadow-lg shadow-black-500/50">
+                    <div class="text-center w-full">
+                        <img src="./images/fruit7.png" alt="" class=" mx-0 ml-16 mb-6 w-24">
+                    </div>
+                    <span class="text-center font-bold text-xl border-b-1 border-gray-400  mb-5">12.90$ - 18.85$</span>
+                    <div class="border border-black-200 w-44 ml-8 mt-5 ">
+
+                    </div>
+                    <p class="font-light text-center mb-2 mt-10">ornage</p>
+                    <div class="rating ml-5 mb-2">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <p class="text-center"><a href="./images/Fruit Burst Website Landing Page Design3.png"
+                            class="link text-sm no-underline">Details</a></p>
+                </div>
+                <div class="first  border border-black-300 w-64 text-center shadow-lg shadow-black-500/50">
+                    <div class="text-center w-full">
+                        <img src="./images/fruit8.png" alt="" class=" mx-0 ml-16 mb-6">
+                    </div>
+                    <span class="text-center font-bold text-xl border-b-1 border-gray-400  mb-5">12.90$ - 18.85$</span>
+                    <div class="border border-black-200 w-44 ml-8 mt-5 ">
+
+                    </div>
+                    <p class="font-light text-center mb-2 mt-10">Red Dragon</p>
+                    <div class="rating ml-5 mb-2">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <p class="text-center"><a href="./images/Fruit Burst Website Landing Page Design3.png"
+                            class="link text-sm no-underline">Details</a></p>
+                </div>
+                <div class="first  border border-black-300 w-64 text-center">
+                    <div class="text-center w-full">
+                        <img src="./images/fruit9.png" alt="" class=" mx-0 ml-16 mb-6">
+                    </div>
+                    <span class="text-center font-bold text-xl border-b-1 border-gray-400  mb-5">12.90$ - 18.85$</span>
+                    <div class="border border-black-200 w-44 ml-8 mt-5 ">
+
+                    </div>
+                    <p class="font-light text-center mb-2 mt-10">Banana</p>
+                    <div class="rating ml-5 mb-2">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <p class="text-center"><a href="./images/Fruit Burst Website Landing Page Design3.png"
+                            class="link text-sm no-underline">Details</a></p>
+                </div>
+
+            </div>
+            </div>
+            </div>
+        </section>
+        <!-- introduce section  -->
+        <section class="container m-auto relative ">
+            <div class="img-introduce border border-black-700">
+                <div class="img-viewr w-full">
+                    <img src="./images/team.png" alt="" class="bg-black-500 opacity-90   ">
+                </div>
+                <div
+                    class="all-cart  absolute top-[200px] left-[90px] flex justify-center items-center gap-40 mx-auto">
+                    <div class="preple w-40">
+                        <div class="photo mb-8 ml-7">
+                            <img src="./images/member1.png" alt="" class="w-24 ">
+                        </div>
+                        <p class="text-center text-white text-xl font-bold">Awlad Hossain</p>
+                        <p class="text-center text-white font-light mb-5">Fruits Expert</p>
+                        <div class="flex items-center gap-5 justify-center">
+                            <img src="./images/facebook 1 (1).svg" alt="" w-9>
+                            <img src="./images/twitter 1 (1).svg" alt="" w-9>
+                            <img src="./images/linkedin 1 (1).svg" alt="" w-9>
+
+                        </div>
+                    </div>
+                    <div class="preple w-40">
+                        <div class="photo text-center  mb-8 ml-7">
+                            <img src="./images/member2.png" alt="" class="w-24 ">
+                        </div>
+                        <p class="text-center text-white text-lg">Safia Chowdhury</p>
+                        <p class="text-center text-white font-light mb-5">Fruits Expert</p>
+                        <div class="flex items-center gap-5 justify-center">
+                            <img src="./images/facebook 1 (1).svg" alt="" w-9>
+                            <img src="./images/twitter 1 (1).svg" alt="" w-9>
+                            <img src="./images/linkedin 1 (1).svg" alt="" w-9>
+
+                        </div>
+                    </div>
+                    <div class="preple w-40">
+                        <div class="photo text-center  mb-8 ml-7">
+                            <img src="./images/member3.png" alt="" class="w-24 ">
+                        </div>
+                        <p class="text-center text-white text-lg">Rokib Hossain</p>
+                        <p class="text-center text-white font-light mb-5">Fruits Expert</p>
+                        <div class="flex items-center gap-5 justify-center">
+                            <img src="./images/facebook 1 (1).svg" alt="" w-9>
+                            <img src="./images/twitter 1 (1).svg" alt="" w-9>
+                            <img src="./images/linkedin 1 (1).svg" alt="" w-9>
+
+                        </div>
+                    </div>
+                    <div class="preple w-40">
+                        <div class="photo text-center  mb-8 ml-7">
+                            <img src="./images/member4.png" alt="" class="w-24 ">
+                        </div>
+                        <p class="text-center text-white text-lg">Chaity</p>
+                        <p class="text-center text-white font-light mb-5">Fruits Expert</p>
+                        <div class="flex items-center gap-5 justify-center">
+                            <img src="./images/facebook 1 (1).svg" alt="" w-9>
+                            <img src="./images/twitter 1 (1).svg" alt="" w-9>
+                            <img src="./images/linkedin 1 (1).svg" alt="" w-9>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
         <!-- chooose us section  here  -->
-        <!-- <section class="choose-us  mx-10 my-10">
+        <section class="choose-us  mx-10 my-10">
             <div class="choose-us-container flex justify-center items-center gap-4">
                 <div class="left-all">
                     <div class="left-container flex items-center  mb-4 gap-4">
@@ -120,25 +273,28 @@
                         </div>
                         <div class="left-discription">
                             <span class="text-black font-bold text-xl">Dedicated Team</span>
-                            <p class="text-gray-500 font-light text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <p class="text-gray-500 font-light text-base">Professional employees are there for you to
+                                pick the most amazing and fresh fruits.</p>
                         </div>
-                    </div> 
-                        <div class="left-container flex items-center mb-4  gap-4">
+                    </div>
+                    <div class="left-container flex items-center mb-4  gap-4">
                         <div class="left-logo bg-gray-300 p-4 rounded-full">
-                            <img src="./images/group 1.svg" alt="">
+                            <img src="./images/love 1.svg" alt="">
                         </div>
                         <div class="left-discription">
-                            <span class="text-black font-bold text-xl outline-gray-950">Dedicated Team</span>
-                            <p class="text-gray-500 font-light text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <span class="text-black font-bold text-xl outline-gray-950">Fresh is Best</span>
+                            <p class="text-gray-500 font-light text-base">Professional employees are there for you to
+                                pick the most amazing and fresh fruits.</p>
                         </div>
-                    </div>    
-                         <div class="left-container flex items-center mb-4   gap-4">
+                    </div>
+                    <div class="left-container flex items-center mb-4   gap-4">
                         <div class="left-logo bg-gray-300 p-4 rounded-full">
-                            <img src="./images/group 1.svg" alt="">
+                            <img src="./images/gift-box 1.svg" alt="">
                         </div>
                         <div class="left-discription">
-                            <span class="text-black font-bold text-xl outline-gray-950">Dedicated Team</span>
-                            <p class="text-gray-500 font-light text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <span class="text-black font-bold text-xl outline-gray-950">Gift Certificates</span>
+                            <p class="text-gray-500 font-light text-base">Professional employees are there for you to
+                                pick the most amazing and fresh fruits.</p>
                         </div>
                     </div>
                 </div>
@@ -146,64 +302,71 @@
                     <img src="./images/whychoose1.png" alt="">
                 </div>
                 <div class="right-container">
-                    <div class="left-all">
-                        <div class="left-container flex items-center  mb-4 gap-4">
+                    <div class="right-all"> 
+                            <div class="left-container flex items-center  mb-4 gap-4">
+                            <div class="left-discription text-right">
+                                <span class="text-black font-bold text-xl">Dedicated Team</span>
+                                <p class="text-gray-500 font-light text-base">Professional employees are there for you
+                                    to pick the most amazing and fresh fruits.</p>
+                            </div>
                             <div class="left-logo bg-gray-300 p-4 rounded-full">
                                 <img src="./images/group 1.svg" alt="" class="">
                             </div>
-                            <div class="left-discription">
+                        </div>
+                            <div class="left-container flex items-center  mb-4 gap-4">
+                            <div class="left-discription text-right">
                                 <span class="text-black font-bold text-xl">Dedicated Team</span>
-                                <p class="text-gray-500 font-light text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                <p class="text-gray-500 font-light text-base">Professional employees are there for you
+                                    to pick the most amazing and fresh fruits.</p>
                             </div>
-                        </div>                     <div class="left-container flex items-center  mb-4 gap-4">
                             <div class="left-logo bg-gray-300 p-4 rounded-full">
                                 <img src="./images/group 1.svg" alt="" class="">
                             </div>
-                            <div class="left-discription">
+                        </div>
+                            <div class="left-container flex items-center  mb-4 gap-4">
+                            <div class="left-discription text-right">
                                 <span class="text-black font-bold text-xl">Dedicated Team</span>
-                                <p class="text-gray-500 font-light text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                <p class="text-gray-500 font-light text-base">Professional employees are there for you
+                                    to pick the most amazing and fresh fruits.</p>
                             </div>
-                        </div>                     <div class="left-container flex items-center  mb-4 gap-4">
                             <div class="left-logo bg-gray-300 p-4 rounded-full">
                                 <img src="./images/group 1.svg" alt="" class="">
                             </div>
-                            <div class="left-discription">
-                                <span class="text-black font-bold text-xl">Dedicated Team</span>
-                                <p class="text-gray-500 font-light text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                            </div>
-                        </div> 
+                        </div>
+                        
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
         <!-- chooose us  section end here  -->
     </main>
     <!-- main ends here  -->
-<!-- footer here  -->
-<!-- <footer>
-<div class="footer-container bg-black p-10">
-    <div class="logo-ends flex justify-center items-center gap-4">
-        <img src="./images/logo.png" alt="" class="w-8">
-        <span class="text-white text-3xl font-bold ">fruits bruts</span>
-    </div>
-    <divtcapitalize class="policy flex justify-center items-center gap-9 ">
-        <span class="text-white text-light capitalize mt-6 mb-6">home</span>
-        <span class="text-white text-light capitalize mt-6 mb-6">about us</span>
-        <span class="text-white text-light capitalize mt-6 mb-6">shop</span>
-        <span class="text-white text-light capitalize mt-6 mb-6">al fruits</span>
-        <span class="text-white text-light capitalize mt-6 mb-6">support</span>
-        <span class="text-white text-light capitalize mt-6 mb-6">my account</span>
-    </divtcapitalize>
-    <div class="logo-svg flex justify-center items-center gap-5">
-        <img src="./images/twitter 1 (1).svg" alt="" class="mt-6 mb-6 w-8">
-        <img src="./images/facebook 1 (1).svg" alt="" class="mt-6 mb-6 w-8">
-        <img src="./images/Group 49 (1).svg" alt="" class="mt-6 mb-6 w-8">
-        <img src="./images/linkedin 1 (1).svg" alt="" class="mt-6 mb-6 w-8">
-        <img src="./images/instagram 1 (1).svg" alt="" class="mt-6 mb-6 w-8">
-        <img src="./images/apple 1 (1).svg" alt="" class="mt-6 mb-6 w-8">
-    </div>
-</div>
-</footer> -->
-<!-- footer ends  -->
+    <!-- footer here  -->
+    <footer>
+        <div class="footer-container bg-black p-10">
+            <div class="logo-ends flex justify-center items-center gap-4">
+                <img src="./images/logo.png" alt="" class="w-8">
+                <span class="text-white text-3xl font-bold ">fruits bruts</span>
+            </div>
+            <divtcapitalize class="policy flex justify-center items-center gap-9 ">
+                <span class="text-white text-light capitalize mt-6 mb-6">home</span>
+                <span class="text-white text-light capitalize mt-6 mb-6">about us</span>
+                <span class="text-white text-light capitalize mt-6 mb-6">shop</span>
+                <span class="text-white text-light capitalize mt-6 mb-6">al fruits</span>
+                <span class="text-white text-light capitalize mt-6 mb-6">support</span>
+                <span class="text-white text-light capitalize mt-6 mb-6">my account</span>
+            </divtcapitalize>
+            <div class="logo-svg flex justify-center items-center gap-5">
+                <img src="./images/twitter 1 (1).svg" alt="" class="mt-6 mb-6 w-8">
+                <img src="./images/facebook 1 (1).svg" alt="" class="mt-6 mb-6 w-8">
+                <img src="./images/Group 49 (1).svg" alt="" class="mt-6 mb-6 w-8">
+                <img src="./images/linkedin 1 (1).svg" alt="" class="mt-6 mb-6 w-8">
+                <img src="./images/instagram 1 (1).svg" alt="" class="mt-6 mb-6 w-8">
+                <img src="./images/apple 1 (1).svg" alt="" class="mt-6 mb-6 w-8">
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends  -->
 </body>
+
 </html>
