@@ -4,10 +4,15 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
-        '200px': '200px',
+        '290px': '290px',
         '90px' :'90px',
-
+        '100px' :'100px',
+        '300px' :'300px',
+  
       },
+      opacity: {
+        '67': '.67',
+      }
     },
   },
   plugins: [],
